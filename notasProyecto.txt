@@ -31,6 +31,7 @@ n
 n
 n
 
+Modelo de Proceso -> Conjunto de actividades gestionan tu proyecto -> cascada y demas, decir cual pillamos y por q
 
 (luego en is2 arquitectura y programar)
 
