@@ -1,3 +1,8 @@
-Link al documento de Google del Proyecto:
+Proyecto Ingeniería del Software I: Gestor de Campamentos
 
-https://docs.google.com/document/d/1z8Q5dFmTrZsbexUdOaOpBQ3TbXMYTnJeSjIzdyGu2zo/edit
+Sofía Postigo Ruiz
+Lucía García García
+Paula Guadilla Gómez
+Ángel Antequera Gómez
+José Otegui Marín
+Mónica Martín Ramírez
