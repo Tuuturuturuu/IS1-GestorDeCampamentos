@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.6.1-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BusinessModeling="http:///schemas/BusinessModeling/2" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/BusinessModeling/2 pathmap://BM_PROFILES/BM.epx#_biXOMFSlEduDJ7xushbBPA?Business%20Modeling/BusinessModeling? http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
+  <uml:Model xmi:id="_oPDCsHuVEe2ksoUQ3qESbw" name="Actividades">
+    <eAnnotations xmi:id="_oPDCsXuVEe2ksoUQ3qESbw" source="uml2.diagrams" references="_oPDCsnuVEe2ksoUQ3qESbw">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_oPDCsnuVEe2ksoUQ3qESbw" type="Usecase" name="Main">
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_9g-IMHuVEe2ksoUQ3qESbw" element="_9g0-QHuVEe2ksoUQ3qESbw" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_9g-IMnuVEe2ksoUQ3qESbw" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_9g-IM3uVEe2ksoUQ3qESbw" width="1455" height="2381"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_9g-INHuVEe2ksoUQ3qESbw" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_9g-INXuVEe2ksoUQ3qESbw" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_9g-INnuVEe2ksoUQ3qESbw" type="Parent"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9g-IMXuVEe2ksoUQ3qESbw" x="13467" y="4868"/>
+        </children>
+      </contents>
+    </eAnnotations>
+    <eAnnotations xmi:id="_oPDCs3uVEe2ksoUQ3qESbw" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+      <details xmi:id="_oPDCtHuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBStructureDiagram" value="1"/>
+      <details xmi:id="_oPDCtXuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBUseCase2" value="1"/>
+      <details xmi:id="_oPDCtnuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBUseCase1" value="1"/>
+      <details xmi:id="_oPDCt3uVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBRelationship1" value="1"/>
+      <details xmi:id="_oPDCuHuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBClassDiagram" value="1"/>
+      <details xmi:id="_oPDCuXuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBCommunicationDiagram" value="1"/>
+      <details xmi:id="_oPDCunuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBRelationship2" value="1"/>
+      <details xmi:id="_oPDCu3uVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBClass" value="1"/>
+      <details xmi:id="_oPDCvHuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBStereotypedClass" value="1"/>
+      <details xmi:id="_oPDCvXuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBPackage" value="1"/>
+      <details xmi:id="_oPDCvnuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBDependancy" value="1"/>
+      <details xmi:id="_oPDCv3uVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBRealization" value="1"/>
+      <details xmi:id="_oPDCwHuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBSignal" value="1"/>
+      <details xmi:id="_oPDCwXuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBInterface" value="1"/>
+      <details xmi:id="_oPDCwnuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBUseCaseDiagram" value="1"/>
+      <details xmi:id="_oPDCw3uVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBAction" value="1"/>
+      <details xmi:id="_oPDCxHuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBConstraint" value="1"/>
+      <details xmi:id="_oPDCxXuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBCollaboration" value="1"/>
+      <details xmi:id="_oPDCxnuVEe2ksoUQ3qESbw" key="com.ibm.xtools.activities.umlBBCollaborationUse" value="1"/>
+    </eAnnotations>
+    <packageImport xmi:id="_oPDCx3uVEe2ksoUQ3qESbw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_9g0-QHuVEe2ksoUQ3qESbw" name="Actor1"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_FGAm8HuWEe2ksoUQ3qESbw" name="Actividades" useCase="_FGAm8XuWEe2ksoUQ3qESbw _FGAm9HuWEe2ksoUQ3qESbw _FGAm9XuWEe2ksoUQ3qESbw _FGAm9nuWEe2ksoUQ3qESbw _FGAm93uWEe2ksoUQ3qESbw _FGAm-HuWEe2ksoUQ3qESbw _FGAm_XuWEe2ksoUQ3qESbw _FGAm_3uWEe2ksoUQ3qESbw _FGAnAXuWEe2ksoUQ3qESbw _FGAnA3uWEe2ksoUQ3qESbw _FGAnBXuWEe2ksoUQ3qESbw _FGAnB3uWEe2ksoUQ3qESbw">
+      <ownedUseCase xmi:id="_FGAm8XuWEe2ksoUQ3qESbw" name="Mostrar" subject="_FGAm8HuWEe2ksoUQ3qESbw">
+        <extend xmi:id="_FGAm8nuWEe2ksoUQ3qESbw" extendedCase="_FGAnBXuWEe2ksoUQ3qESbw" extensionLocation="_FGAnBnuWEe2ksoUQ3qESbw"/>
+        <extend xmi:id="_FGAm83uWEe2ksoUQ3qESbw" extendedCase="_FGAnB3uWEe2ksoUQ3qESbw" extensionLocation="_FGAnCHuWEe2ksoUQ3qESbw"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_FGAm9HuWEe2ksoUQ3qESbw" name="Dar de AltaTurnos" subject="_FGAm8HuWEe2ksoUQ3qESbw"/>
+      <ownedUseCase xmi:id="_FGAm9XuWEe2ksoUQ3qESbw" name="Dar de Baja Turnos" subject="_FGAm8HuWEe2ksoUQ3qESbw"/>
+      <ownedUseCase xmi:id="_FGAm9nuWEe2ksoUQ3qESbw" name="Lectura BBDD" subject="_FGAm8HuWEe2ksoUQ3qESbw"/>
+      <ownedUseCase xmi:id="_FGAm93uWEe2ksoUQ3qESbw" name="Escritura BBDD" subject="_FGAm8HuWEe2ksoUQ3qESbw"/>
+      <ownedUseCase xmi:id="_FGAm-HuWEe2ksoUQ3qESbw" name="Modificar Turno" subject="_FGAm8HuWEe2ksoUQ3qESbw">
+        <extend xmi:id="_FGAm-XuWEe2ksoUQ3qESbw" extendedCase="_FGAm_XuWEe2ksoUQ3qESbw" extensionLocation="_FGAm_nuWEe2ksoUQ3qESbw"/>
+        <extend xmi:id="_FGAm-nuWEe2ksoUQ3qESbw" extendedCase="_FGAm_3uWEe2ksoUQ3qESbw" extensionLocation="_FGAnAHuWEe2ksoUQ3qESbw"/>
+        <extend xmi:id="_FGAm-3uWEe2ksoUQ3qESbw" extendedCase="_FGAnAXuWEe2ksoUQ3qESbw" extensionLocation="_FGAnAnuWEe2ksoUQ3qESbw"/>
+        <extend xmi:id="_FGAm_HuWEe2ksoUQ3qESbw" extendedCase="_FGAnA3uWEe2ksoUQ3qESbw" extensionLocation="_FGAnBHuWEe2ksoUQ3qESbw"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_FGAm_XuWEe2ksoUQ3qESbw" name="Modificar Actividad &#xD;&#xA;del Turno" subject="_FGAm8HuWEe2ksoUQ3qESbw">
+        <extensionPoint xmi:id="_FGAm_nuWEe2ksoUQ3qESbw" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_FGAm_3uWEe2ksoUQ3qESbw" name="Modificar &#xD;&#xA;Personal" subject="_FGAm8HuWEe2ksoUQ3qESbw">
+        <extensionPoint xmi:id="_FGAnAHuWEe2ksoUQ3qESbw" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_FGAnAXuWEe2ksoUQ3qESbw" name="Modificar Clientes &#xD;&#xA;Inscritos" subject="_FGAm8HuWEe2ksoUQ3qESbw">
+        <extensionPoint xmi:id="_FGAnAnuWEe2ksoUQ3qESbw" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_FGAnA3uWEe2ksoUQ3qESbw" name="Modificar Datos Turno" subject="_FGAm8HuWEe2ksoUQ3qESbw">
+        <extensionPoint xmi:id="_FGAnBHuWEe2ksoUQ3qESbw" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_FGAnBXuWEe2ksoUQ3qESbw" name="Mostrar un Turno" subject="_FGAm8HuWEe2ksoUQ3qESbw">
+        <extensionPoint xmi:id="_FGAnBnuWEe2ksoUQ3qESbw" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_FGAnB3uWEe2ksoUQ3qESbw" name="Mostrar Todos" subject="_FGAm8HuWEe2ksoUQ3qESbw">
+        <extensionPoint xmi:id="_FGAnCHuWEe2ksoUQ3qESbw" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_FGAnCXuWEe2ksoUQ3qESbw" name="Personal"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_FGAnCnuWEe2ksoUQ3qESbw" name="BBDD"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FGAnC3uWEe2ksoUQ3qESbw" memberEnd="_FGAnDHuWEe2ksoUQ3qESbw _FGAnD3uWEe2ksoUQ3qESbw" navigableOwnedEnd="_FGAnDHuWEe2ksoUQ3qESbw">
+        <ownedEnd xmi:id="_FGAnDHuWEe2ksoUQ3qESbw" name="mostrar Turnos" visibility="private" type="_FGAm8XuWEe2ksoUQ3qESbw" association="_FGAnC3uWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnDXuWEe2ksoUQ3qESbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnDnuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_FGAnD3uWEe2ksoUQ3qESbw" name="" visibility="private" type="_FGAnCXuWEe2ksoUQ3qESbw" association="_FGAnC3uWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnEHuWEe2ksoUQ3qESbw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnEXuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FGAnEnuWEe2ksoUQ3qESbw" memberEnd="_FGAnE3uWEe2ksoUQ3qESbw _FGAnFnuWEe2ksoUQ3qESbw" navigableOwnedEnd="_FGAnE3uWEe2ksoUQ3qESbw">
+        <ownedEnd xmi:id="_FGAnE3uWEe2ksoUQ3qESbw" name="dar de AltaTurnos" visibility="private" type="_FGAm9HuWEe2ksoUQ3qESbw" association="_FGAnEnuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnFHuWEe2ksoUQ3qESbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnFXuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_FGAnFnuWEe2ksoUQ3qESbw" name="" visibility="private" type="_FGAnCXuWEe2ksoUQ3qESbw" association="_FGAnEnuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnF3uWEe2ksoUQ3qESbw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnGHuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FGAnGXuWEe2ksoUQ3qESbw" memberEnd="_FGAnGnuWEe2ksoUQ3qESbw _FGAnHXuWEe2ksoUQ3qESbw" navigableOwnedEnd="_FGAnGnuWEe2ksoUQ3qESbw">
+        <ownedEnd xmi:id="_FGAnGnuWEe2ksoUQ3qESbw" name="dar de Baja Turnos" visibility="private" type="_FGAm9XuWEe2ksoUQ3qESbw" association="_FGAnGXuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnG3uWEe2ksoUQ3qESbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnHHuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_FGAnHXuWEe2ksoUQ3qESbw" name="" visibility="private" type="_FGAnCXuWEe2ksoUQ3qESbw" association="_FGAnGXuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnHnuWEe2ksoUQ3qESbw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnH3uWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FGAnIHuWEe2ksoUQ3qESbw" memberEnd="_FGAnIXuWEe2ksoUQ3qESbw _FGAnJHuWEe2ksoUQ3qESbw" navigableOwnedEnd="_FGAnIXuWEe2ksoUQ3qESbw">
+        <ownedEnd xmi:id="_FGAnIXuWEe2ksoUQ3qESbw" name="modificar Turno" visibility="private" type="_FGAm-HuWEe2ksoUQ3qESbw" association="_FGAnIHuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnInuWEe2ksoUQ3qESbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnI3uWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_FGAnJHuWEe2ksoUQ3qESbw" name="" visibility="private" type="_FGAnCXuWEe2ksoUQ3qESbw" association="_FGAnIHuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnJXuWEe2ksoUQ3qESbw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnJnuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FGAnJ3uWEe2ksoUQ3qESbw" memberEnd="_FGAnKHuWEe2ksoUQ3qESbw _FGAnK3uWEe2ksoUQ3qESbw" navigableOwnedEnd="_FGAnKHuWEe2ksoUQ3qESbw">
+        <ownedEnd xmi:id="_FGAnKHuWEe2ksoUQ3qESbw" name="escritura BBDD" visibility="private" type="_FGAm93uWEe2ksoUQ3qESbw" association="_FGAnJ3uWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnKXuWEe2ksoUQ3qESbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnKnuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_FGAnK3uWEe2ksoUQ3qESbw" name="" visibility="private" type="_FGAm_XuWEe2ksoUQ3qESbw" association="_FGAnJ3uWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnLHuWEe2ksoUQ3qESbw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnLXuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FGAnLnuWEe2ksoUQ3qESbw" memberEnd="_FGAnL3uWEe2ksoUQ3qESbw _FGAnMnuWEe2ksoUQ3qESbw" navigableOwnedEnd="_FGAnL3uWEe2ksoUQ3qESbw">
+        <ownedEnd xmi:id="_FGAnL3uWEe2ksoUQ3qESbw" name="escritura BBDD" visibility="private" type="_FGAm93uWEe2ksoUQ3qESbw" association="_FGAnLnuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnMHuWEe2ksoUQ3qESbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnMXuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_FGAnMnuWEe2ksoUQ3qESbw" name="" visibility="private" type="_FGAm_3uWEe2ksoUQ3qESbw" association="_FGAnLnuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnM3uWEe2ksoUQ3qESbw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnNHuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FGAnNXuWEe2ksoUQ3qESbw" memberEnd="_FGAnNnuWEe2ksoUQ3qESbw _FGAnOXuWEe2ksoUQ3qESbw" navigableOwnedEnd="_FGAnNnuWEe2ksoUQ3qESbw">
+        <ownedEnd xmi:id="_FGAnNnuWEe2ksoUQ3qESbw" name="escritura BBDD" visibility="private" type="_FGAm93uWEe2ksoUQ3qESbw" association="_FGAnNXuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnN3uWEe2ksoUQ3qESbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnOHuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_FGAnOXuWEe2ksoUQ3qESbw" name="" visibility="private" type="_FGAnAXuWEe2ksoUQ3qESbw" association="_FGAnNXuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnOnuWEe2ksoUQ3qESbw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnO3uWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FGAnPHuWEe2ksoUQ3qESbw" memberEnd="_FGAnPXuWEe2ksoUQ3qESbw _FGAnQHuWEe2ksoUQ3qESbw" navigableOwnedEnd="_FGAnPXuWEe2ksoUQ3qESbw">
+        <ownedEnd xmi:id="_FGAnPXuWEe2ksoUQ3qESbw" name="escritura BBDD" visibility="private" type="_FGAm93uWEe2ksoUQ3qESbw" association="_FGAnPHuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnPnuWEe2ksoUQ3qESbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnP3uWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_FGAnQHuWEe2ksoUQ3qESbw" name="" visibility="private" type="_FGAnA3uWEe2ksoUQ3qESbw" association="_FGAnPHuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnQXuWEe2ksoUQ3qESbw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnQnuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FGAnQ3uWEe2ksoUQ3qESbw" memberEnd="_FGAnRHuWEe2ksoUQ3qESbw _FGAnR3uWEe2ksoUQ3qESbw" navigableOwnedEnd="_FGAnRHuWEe2ksoUQ3qESbw">
+        <ownedEnd xmi:id="_FGAnRHuWEe2ksoUQ3qESbw" name="lectura BBDD" visibility="private" type="_FGAm9nuWEe2ksoUQ3qESbw" association="_FGAnQ3uWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnRXuWEe2ksoUQ3qESbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnRnuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_FGAnR3uWEe2ksoUQ3qESbw" name="" visibility="private" type="_FGAnCnuWEe2ksoUQ3qESbw" association="_FGAnQ3uWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnSHuWEe2ksoUQ3qESbw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnSXuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FGAnSnuWEe2ksoUQ3qESbw" memberEnd="_FGAnS3uWEe2ksoUQ3qESbw _FGAnTnuWEe2ksoUQ3qESbw" navigableOwnedEnd="_FGAnS3uWEe2ksoUQ3qESbw">
+        <ownedEnd xmi:id="_FGAnS3uWEe2ksoUQ3qESbw" name="mostrar un Turno" visibility="private" type="_FGAnBXuWEe2ksoUQ3qESbw" association="_FGAnSnuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnTHuWEe2ksoUQ3qESbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnTXuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_FGAnTnuWEe2ksoUQ3qESbw" name="" visibility="private" type="_FGAm9nuWEe2ksoUQ3qESbw" association="_FGAnSnuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnT3uWEe2ksoUQ3qESbw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnUHuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FGAnUXuWEe2ksoUQ3qESbw" memberEnd="_FGAnUnuWEe2ksoUQ3qESbw _FGAnVXuWEe2ksoUQ3qESbw" navigableOwnedEnd="_FGAnUnuWEe2ksoUQ3qESbw">
+        <ownedEnd xmi:id="_FGAnUnuWEe2ksoUQ3qESbw" name="mostrar Todos" visibility="private" type="_FGAnB3uWEe2ksoUQ3qESbw" association="_FGAnUXuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnU3uWEe2ksoUQ3qESbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnVHuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_FGAnVXuWEe2ksoUQ3qESbw" name="" visibility="private" type="_FGAm9nuWEe2ksoUQ3qESbw" association="_FGAnUXuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnVnuWEe2ksoUQ3qESbw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnV3uWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FGAnWHuWEe2ksoUQ3qESbw" memberEnd="_FGAnWXuWEe2ksoUQ3qESbw _FGAnXHuWEe2ksoUQ3qESbw" navigableOwnedEnd="_FGAnWXuWEe2ksoUQ3qESbw">
+        <ownedEnd xmi:id="_FGAnWXuWEe2ksoUQ3qESbw" name="bBDD" visibility="private" type="_FGAnCnuWEe2ksoUQ3qESbw" association="_FGAnWHuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnWnuWEe2ksoUQ3qESbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnW3uWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_FGAnXHuWEe2ksoUQ3qESbw" name="" visibility="private" type="_FGAm93uWEe2ksoUQ3qESbw" association="_FGAnWHuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnXXuWEe2ksoUQ3qESbw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnXnuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FGAnX3uWEe2ksoUQ3qESbw" memberEnd="_FGAnYHuWEe2ksoUQ3qESbw _FGAnY3uWEe2ksoUQ3qESbw" navigableOwnedEnd="_FGAnYHuWEe2ksoUQ3qESbw">
+        <ownedEnd xmi:id="_FGAnYHuWEe2ksoUQ3qESbw" name="escritura BBDD" visibility="private" type="_FGAm93uWEe2ksoUQ3qESbw" association="_FGAnX3uWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnYXuWEe2ksoUQ3qESbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnYnuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_FGAnY3uWEe2ksoUQ3qESbw" name="" visibility="private" type="_FGAm9XuWEe2ksoUQ3qESbw" association="_FGAnX3uWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnZHuWEe2ksoUQ3qESbw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnZXuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FGAnZnuWEe2ksoUQ3qESbw" memberEnd="_FGAnZ3uWEe2ksoUQ3qESbw _FGAnanuWEe2ksoUQ3qESbw" navigableOwnedEnd="_FGAnZ3uWEe2ksoUQ3qESbw">
+        <ownedEnd xmi:id="_FGAnZ3uWEe2ksoUQ3qESbw" name="escritura BBDD" visibility="private" type="_FGAm93uWEe2ksoUQ3qESbw" association="_FGAnZnuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAnaHuWEe2ksoUQ3qESbw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnaXuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_FGAnanuWEe2ksoUQ3qESbw" name="" visibility="private" type="_FGAm9HuWEe2ksoUQ3qESbw" association="_FGAnZnuWEe2ksoUQ3qESbw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FGAna3uWEe2ksoUQ3qESbw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FGAnbHuWEe2ksoUQ3qESbw"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_oPDCyHuVEe2ksoUQ3qESbw">
+      <eAnnotations xmi:id="_oPDCyXuVEe2ksoUQ3qESbw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_oPDCynuVEe2ksoUQ3qESbw">
+      <eAnnotations xmi:id="_oPDCy3uVEe2ksoUQ3qESbw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_oPDCzHuVEe2ksoUQ3qESbw">
+      <eAnnotations xmi:id="_oPDCzXuVEe2ksoUQ3qESbw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_oPDCznuVEe2ksoUQ3qESbw">
+      <eAnnotations xmi:id="_oPDCz3uVEe2ksoUQ3qESbw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://BM_PROFILES/BM.epx#_biXOMFSlEduDJ7xushbBPA?Business%20Modeling/BusinessModeling?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://BM_PROFILES/BM.epx#_vWDZcTB4EdmD3LtL1d2JnQ?Business%20Modeling?"/>
+    </profileApplication>
+  </uml:Model>
+  <BusinessModeling:BusinessUseCaseModel xmi:id="_sXF2IHuVEe2ksoUQ3qESbw" base_Package="_oPDCsHuVEe2ksoUQ3qESbw"/>
+  <Standard:Subsystem xmi:id="_FGAnbXuWEe2ksoUQ3qESbw" base_Component="_FGAm8HuWEe2ksoUQ3qESbw"/>
+</xmi:XMI>

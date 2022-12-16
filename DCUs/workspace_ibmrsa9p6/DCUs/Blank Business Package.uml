@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
+  <uml:Model xmi:id="_DBzbZHuTEe2904nm0qKpiQ" name="Blank Business Package">
+    <packageImport xmi:id="_DBzbZXuTEe2904nm0qKpiQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_DBzbZnuTEe2904nm0qKpiQ" name="Personal"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_DBzbZ3uTEe2904nm0qKpiQ" name="BBDD"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_DBzbaHuTEe2904nm0qKpiQ" name="Turnos" useCase="_DBzbaXuTEe2904nm0qKpiQ _DBzbbHuTEe2904nm0qKpiQ _DBzbbXuTEe2904nm0qKpiQ _DBzbbnuTEe2904nm0qKpiQ _DBzbb3uTEe2904nm0qKpiQ _DBzbcHuTEe2904nm0qKpiQ _DBzbdXuTEe2904nm0qKpiQ _DBzbd3uTEe2904nm0qKpiQ _DBzbeXuTEe2904nm0qKpiQ _DBzbe3uTEe2904nm0qKpiQ _DBzbfXuTEe2904nm0qKpiQ _DBzbf3uTEe2904nm0qKpiQ">
+      <ownedUseCase xmi:id="_DBzbaXuTEe2904nm0qKpiQ" name="Mostrar" subject="_DBzbaHuTEe2904nm0qKpiQ">
+        <extend xmi:id="_DBzbanuTEe2904nm0qKpiQ" extendedCase="_DBzbfXuTEe2904nm0qKpiQ" extensionLocation="_DBzbfnuTEe2904nm0qKpiQ"/>
+        <extend xmi:id="_DBzba3uTEe2904nm0qKpiQ" extendedCase="_DBzbf3uTEe2904nm0qKpiQ" extensionLocation="_DBzbgHuTEe2904nm0qKpiQ"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_DBzbbHuTEe2904nm0qKpiQ" name="Dar de AltaTurnos" subject="_DBzbaHuTEe2904nm0qKpiQ"/>
+      <ownedUseCase xmi:id="_DBzbbXuTEe2904nm0qKpiQ" name="Dar de Baja Turnos" subject="_DBzbaHuTEe2904nm0qKpiQ"/>
+      <ownedUseCase xmi:id="_DBzbbnuTEe2904nm0qKpiQ" name="Lectura BBDD" subject="_DBzbaHuTEe2904nm0qKpiQ"/>
+      <ownedUseCase xmi:id="_DBzbb3uTEe2904nm0qKpiQ" name="Escritura BBDD" subject="_DBzbaHuTEe2904nm0qKpiQ"/>
+      <ownedUseCase xmi:id="_DBzbcHuTEe2904nm0qKpiQ" name="Modificar Turno" subject="_DBzbaHuTEe2904nm0qKpiQ">
+        <extend xmi:id="_DBzbcXuTEe2904nm0qKpiQ" extendedCase="_DBzbdXuTEe2904nm0qKpiQ" extensionLocation="_DBzbdnuTEe2904nm0qKpiQ"/>
+        <extend xmi:id="_DBzbcnuTEe2904nm0qKpiQ" extendedCase="_DBzbd3uTEe2904nm0qKpiQ" extensionLocation="_DBzbeHuTEe2904nm0qKpiQ"/>
+        <extend xmi:id="_DBzbc3uTEe2904nm0qKpiQ" extendedCase="_DBzbeXuTEe2904nm0qKpiQ" extensionLocation="_DBzbenuTEe2904nm0qKpiQ"/>
+        <extend xmi:id="_DBzbdHuTEe2904nm0qKpiQ" extendedCase="_DBzbe3uTEe2904nm0qKpiQ" extensionLocation="_DBzbfHuTEe2904nm0qKpiQ"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_DBzbdXuTEe2904nm0qKpiQ" name="Modificar Actividad &#xD;&#xA;del Turno" subject="_DBzbaHuTEe2904nm0qKpiQ">
+        <extensionPoint xmi:id="_DBzbdnuTEe2904nm0qKpiQ" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_DBzbd3uTEe2904nm0qKpiQ" name="Modificar &#xD;&#xA;Personal" subject="_DBzbaHuTEe2904nm0qKpiQ">
+        <extensionPoint xmi:id="_DBzbeHuTEe2904nm0qKpiQ" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_DBzbeXuTEe2904nm0qKpiQ" name="Modificar Clientes &#xD;&#xA;Inscritos" subject="_DBzbaHuTEe2904nm0qKpiQ">
+        <extensionPoint xmi:id="_DBzbenuTEe2904nm0qKpiQ" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_DBzbe3uTEe2904nm0qKpiQ" name="Modificar Datos Turno" subject="_DBzbaHuTEe2904nm0qKpiQ">
+        <extensionPoint xmi:id="_DBzbfHuTEe2904nm0qKpiQ" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_DBzbfXuTEe2904nm0qKpiQ" name="Mostrar un Turno" subject="_DBzbaHuTEe2904nm0qKpiQ">
+        <extensionPoint xmi:id="_DBzbfnuTEe2904nm0qKpiQ" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_DBzbf3uTEe2904nm0qKpiQ" name="Mostrar Todos" subject="_DBzbaHuTEe2904nm0qKpiQ">
+        <extensionPoint xmi:id="_DBzbgHuTEe2904nm0qKpiQ" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_DBzbgXuTEe2904nm0qKpiQ" name="Personal"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_DBzbgnuTEe2904nm0qKpiQ" name="BBDD"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DBzbg3uTEe2904nm0qKpiQ" memberEnd="_DBzbhHuTEe2904nm0qKpiQ _DBzbh3uTEe2904nm0qKpiQ" navigableOwnedEnd="_DBzbhHuTEe2904nm0qKpiQ">
+        <ownedEnd xmi:id="_DBzbhHuTEe2904nm0qKpiQ" name="mostrar Turnos" visibility="private" type="_DBzbaXuTEe2904nm0qKpiQ" association="_DBzbg3uTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbhXuTEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbhnuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_DBzbh3uTEe2904nm0qKpiQ" name="" visibility="private" type="_DBzbgXuTEe2904nm0qKpiQ" association="_DBzbg3uTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbiHuTEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbiXuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DBzbinuTEe2904nm0qKpiQ" memberEnd="_DBzbi3uTEe2904nm0qKpiQ _DBzbjnuTEe2904nm0qKpiQ" navigableOwnedEnd="_DBzbi3uTEe2904nm0qKpiQ">
+        <ownedEnd xmi:id="_DBzbi3uTEe2904nm0qKpiQ" name="dar de AltaTurnos" visibility="private" type="_DBzbbHuTEe2904nm0qKpiQ" association="_DBzbinuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbjHuTEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbjXuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_DBzbjnuTEe2904nm0qKpiQ" name="" visibility="private" type="_DBzbgXuTEe2904nm0qKpiQ" association="_DBzbinuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbj3uTEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbkHuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DBzbkXuTEe2904nm0qKpiQ" memberEnd="_DBzbknuTEe2904nm0qKpiQ _DBzblXuTEe2904nm0qKpiQ" navigableOwnedEnd="_DBzbknuTEe2904nm0qKpiQ">
+        <ownedEnd xmi:id="_DBzbknuTEe2904nm0qKpiQ" name="dar de Baja Turnos" visibility="private" type="_DBzbbXuTEe2904nm0qKpiQ" association="_DBzbkXuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbk3uTEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzblHuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_DBzblXuTEe2904nm0qKpiQ" name="" visibility="private" type="_DBzbgXuTEe2904nm0qKpiQ" association="_DBzbkXuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzblnuTEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbl3uTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DBzbmHuTEe2904nm0qKpiQ" memberEnd="_DBzbmXuTEe2904nm0qKpiQ _DBzbnHuTEe2904nm0qKpiQ" navigableOwnedEnd="_DBzbmXuTEe2904nm0qKpiQ">
+        <ownedEnd xmi:id="_DBzbmXuTEe2904nm0qKpiQ" name="modificar Turno" visibility="private" type="_DBzbcHuTEe2904nm0qKpiQ" association="_DBzbmHuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbmnuTEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbm3uTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_DBzbnHuTEe2904nm0qKpiQ" name="" visibility="private" type="_DBzbgXuTEe2904nm0qKpiQ" association="_DBzbmHuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbnXuTEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbnnuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DBzbn3uTEe2904nm0qKpiQ" memberEnd="_DBzboHuTEe2904nm0qKpiQ _DBzbo3uTEe2904nm0qKpiQ" navigableOwnedEnd="_DBzboHuTEe2904nm0qKpiQ">
+        <ownedEnd xmi:id="_DBzboHuTEe2904nm0qKpiQ" name="escritura BBDD" visibility="private" type="_DBzbb3uTEe2904nm0qKpiQ" association="_DBzbn3uTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzboXuTEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbonuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_DBzbo3uTEe2904nm0qKpiQ" name="" visibility="private" type="_DBzbdXuTEe2904nm0qKpiQ" association="_DBzbn3uTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbpHuTEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbpXuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DBzbpnuTEe2904nm0qKpiQ" memberEnd="_DBzbp3uTEe2904nm0qKpiQ _DBzbqnuTEe2904nm0qKpiQ" navigableOwnedEnd="_DBzbp3uTEe2904nm0qKpiQ">
+        <ownedEnd xmi:id="_DBzbp3uTEe2904nm0qKpiQ" name="escritura BBDD" visibility="private" type="_DBzbb3uTEe2904nm0qKpiQ" association="_DBzbpnuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbqHuTEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbqXuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_DBzbqnuTEe2904nm0qKpiQ" name="" visibility="private" type="_DBzbd3uTEe2904nm0qKpiQ" association="_DBzbpnuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbq3uTEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbrHuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DBzbrXuTEe2904nm0qKpiQ" memberEnd="_DBzbrnuTEe2904nm0qKpiQ _DBzbsXuTEe2904nm0qKpiQ" navigableOwnedEnd="_DBzbrnuTEe2904nm0qKpiQ">
+        <ownedEnd xmi:id="_DBzbrnuTEe2904nm0qKpiQ" name="escritura BBDD" visibility="private" type="_DBzbb3uTEe2904nm0qKpiQ" association="_DBzbrXuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbr3uTEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbsHuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_DBzbsXuTEe2904nm0qKpiQ" name="" visibility="private" type="_DBzbeXuTEe2904nm0qKpiQ" association="_DBzbrXuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbsnuTEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbs3uTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DBzbtHuTEe2904nm0qKpiQ" memberEnd="_DBzbtXuTEe2904nm0qKpiQ _DBzbuHuTEe2904nm0qKpiQ" navigableOwnedEnd="_DBzbtXuTEe2904nm0qKpiQ">
+        <ownedEnd xmi:id="_DBzbtXuTEe2904nm0qKpiQ" name="escritura BBDD" visibility="private" type="_DBzbb3uTEe2904nm0qKpiQ" association="_DBzbtHuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbtnuTEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbt3uTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_DBzbuHuTEe2904nm0qKpiQ" name="" visibility="private" type="_DBzbe3uTEe2904nm0qKpiQ" association="_DBzbtHuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbuXuTEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbunuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DBzbu3uTEe2904nm0qKpiQ" memberEnd="_DBzbvHuTEe2904nm0qKpiQ _DBzbv3uTEe2904nm0qKpiQ" navigableOwnedEnd="_DBzbvHuTEe2904nm0qKpiQ">
+        <ownedEnd xmi:id="_DBzbvHuTEe2904nm0qKpiQ" name="lectura BBDD" visibility="private" type="_DBzbbnuTEe2904nm0qKpiQ" association="_DBzbu3uTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbvXuTEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbvnuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_DBzbv3uTEe2904nm0qKpiQ" name="" visibility="private" type="_DBzbgnuTEe2904nm0qKpiQ" association="_DBzbu3uTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbwHuTEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbwXuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DBzbwnuTEe2904nm0qKpiQ" memberEnd="_DBzbw3uTEe2904nm0qKpiQ _DBzbxnuTEe2904nm0qKpiQ" navigableOwnedEnd="_DBzbw3uTEe2904nm0qKpiQ">
+        <ownedEnd xmi:id="_DBzbw3uTEe2904nm0qKpiQ" name="mostrar un Turno" visibility="private" type="_DBzbfXuTEe2904nm0qKpiQ" association="_DBzbwnuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbxHuTEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbxXuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_DBzbxnuTEe2904nm0qKpiQ" name="" visibility="private" type="_DBzbbnuTEe2904nm0qKpiQ" association="_DBzbwnuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbx3uTEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbyHuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DBzbyXuTEe2904nm0qKpiQ" memberEnd="_DBzbynuTEe2904nm0qKpiQ _DBzbzXuTEe2904nm0qKpiQ" navigableOwnedEnd="_DBzbynuTEe2904nm0qKpiQ">
+        <ownedEnd xmi:id="_DBzbynuTEe2904nm0qKpiQ" name="mostrar Todos" visibility="private" type="_DBzbf3uTEe2904nm0qKpiQ" association="_DBzbyXuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzby3uTEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbzHuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_DBzbzXuTEe2904nm0qKpiQ" name="" visibility="private" type="_DBzbbnuTEe2904nm0qKpiQ" association="_DBzbyXuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzbznuTEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzbz3uTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DBzb0HuTEe2904nm0qKpiQ" memberEnd="_DBzb0XuTEe2904nm0qKpiQ _DBzb1HuTEe2904nm0qKpiQ" navigableOwnedEnd="_DBzb0XuTEe2904nm0qKpiQ">
+        <ownedEnd xmi:id="_DBzb0XuTEe2904nm0qKpiQ" name="bBDD" visibility="private" type="_DBzbgnuTEe2904nm0qKpiQ" association="_DBzb0HuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzb0nuTEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzb03uTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_DBzb1HuTEe2904nm0qKpiQ" name="" visibility="private" type="_DBzbb3uTEe2904nm0qKpiQ" association="_DBzb0HuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzb1XuTEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzb1nuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DBzb13uTEe2904nm0qKpiQ" memberEnd="_DBzb2HuTEe2904nm0qKpiQ _DBzb23uTEe2904nm0qKpiQ" navigableOwnedEnd="_DBzb2HuTEe2904nm0qKpiQ">
+        <ownedEnd xmi:id="_DBzb2HuTEe2904nm0qKpiQ" name="escritura BBDD" visibility="private" type="_DBzbb3uTEe2904nm0qKpiQ" association="_DBzb13uTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzb2XuTEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzb2nuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_DBzb23uTEe2904nm0qKpiQ" name="" visibility="private" type="_DBzbbXuTEe2904nm0qKpiQ" association="_DBzb13uTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzb3HuTEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzb3XuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DBzb3nuTEe2904nm0qKpiQ" memberEnd="_DBzb33uTEe2904nm0qKpiQ _DBzb4nuTEe2904nm0qKpiQ" navigableOwnedEnd="_DBzb33uTEe2904nm0qKpiQ">
+        <ownedEnd xmi:id="_DBzb33uTEe2904nm0qKpiQ" name="escritura BBDD" visibility="private" type="_DBzbb3uTEe2904nm0qKpiQ" association="_DBzb3nuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzb4HuTEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzb4XuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_DBzb4nuTEe2904nm0qKpiQ" name="" visibility="private" type="_DBzbbHuTEe2904nm0qKpiQ" association="_DBzb3nuTEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DBzb43uTEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DBzb5HuTEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_DBzb5XuTEe2904nm0qKpiQ">
+      <eAnnotations xmi:id="_DBzb5nuTEe2904nm0qKpiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Standard:Subsystem xmi:id="_DBzb53uTEe2904nm0qKpiQ" base_Component="_DBzbaHuTEe2904nm0qKpiQ"/>
+</xmi:XMI>

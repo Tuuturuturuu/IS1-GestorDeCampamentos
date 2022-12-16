@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="UMLModelConfigurationPage.TemplateConfiguration">
+		<section name="RootElementBlock">
+			<item value="Model" key="com.ibm.xtools.modeler.templates.blankBusinessModel"/>
+		</section>
+	</section>
+	<section name="Uml2XmiExportWizard">
+		<item value="true" key="Uml2XmiRecreateIDs"/>
+		<item value="/chi" key="Uml2XmiWorkspacePath"/>
+		<item value="" key="Uml2XmiDefaultDirectoryPath"/>
+		<item value="false" key="Uml2XmiUML2ExportAppliedProfiles"/>
+		<item value="true" key="Uml2XmiWorkspaceSelected"/>
+		<list key="Uml2XmiSourceSelections">
+			<item value="/chi/Blank Business Package.emx"/>
+		</list>
+	</section>
+	<section name="Uml2ExportWizard">
+		<item value="/chi" key="WorkspacePath"/>
+		<item value="" key="DefaultDirectoryPath"/>
+		<item value="true" key="WorkspaceSelected"/>
+		<item value="true" key="RecreateIDs"/>
+		<item value="false" key="UML2ExportAppliedProfiles"/>
+		<list key="SourceSelections">
+			<item value="/chi/Blank Business Package.emx"/>
+		</list>
+	</section>
+	<section name="WorkingSetsConfigurationPage.TemplateConfiguration">
+	</section>
+</section>

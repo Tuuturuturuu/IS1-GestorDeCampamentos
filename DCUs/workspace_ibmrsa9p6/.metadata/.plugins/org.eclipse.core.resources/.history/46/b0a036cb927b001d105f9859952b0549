@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Standard="http://schema.omg.org/spec/UML/2.2/StandardProfileL2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://schema.omg.org/spec/UML/2.2" xsi:schemaLocation="http://schema.omg.org/spec/UML/2.2/StandardProfileL2 http://schema.omg.org/spec/UML/2.2/StandardProfileL2.xmi#_yzU58YinEdqtvbnfB2L_5w http://schema.omg.org/spec/UML/2.2 http://www.eclipse.org/uml2/3.0.0/UML">
+  <uml:Model xmi:id="_ojWmpHuSEe2904nm0qKpiQ" name="Blank Business Package">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ojWmpXuSEe2904nm0qKpiQ">
+      <importedPackage xmi:type="uml:Model" href="http://schema.omg.org/spec/UML/2.2/uml.xml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_ojWmpnuSEe2904nm0qKpiQ" name="Personal"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_ojWmp3uSEe2904nm0qKpiQ" name="BBDD"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ojWmqHuSEe2904nm0qKpiQ" name="Turnos" useCase="_ojWmqXuSEe2904nm0qKpiQ _ojWmrHuSEe2904nm0qKpiQ _ojWmrXuSEe2904nm0qKpiQ _ojWmrnuSEe2904nm0qKpiQ _ojWmr3uSEe2904nm0qKpiQ _ojWmsHuSEe2904nm0qKpiQ _ojWmtXuSEe2904nm0qKpiQ _ojWmt3uSEe2904nm0qKpiQ _ojWmuXuSEe2904nm0qKpiQ _ojWmu3uSEe2904nm0qKpiQ _ojWmvXuSEe2904nm0qKpiQ _ojWmv3uSEe2904nm0qKpiQ">
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ojWmqXuSEe2904nm0qKpiQ" name="Mostrar" subject="_ojWmqHuSEe2904nm0qKpiQ">
+        <extend xmi:type="uml:Extend" xmi:id="_ojWmqnuSEe2904nm0qKpiQ" extendedCase="_ojWmvXuSEe2904nm0qKpiQ" extensionLocation="_ojWmvnuSEe2904nm0qKpiQ"/>
+        <extend xmi:type="uml:Extend" xmi:id="_ojWmq3uSEe2904nm0qKpiQ" extendedCase="_ojWmv3uSEe2904nm0qKpiQ" extensionLocation="_ojWmwHuSEe2904nm0qKpiQ"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ojWmrHuSEe2904nm0qKpiQ" name="Dar de AltaTurnos" subject="_ojWmqHuSEe2904nm0qKpiQ"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ojWmrXuSEe2904nm0qKpiQ" name="Dar de Baja Turnos" subject="_ojWmqHuSEe2904nm0qKpiQ"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ojWmrnuSEe2904nm0qKpiQ" name="Lectura BBDD" subject="_ojWmqHuSEe2904nm0qKpiQ"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ojWmr3uSEe2904nm0qKpiQ" name="Escritura BBDD" subject="_ojWmqHuSEe2904nm0qKpiQ"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ojWmsHuSEe2904nm0qKpiQ" name="Modificar Turno" subject="_ojWmqHuSEe2904nm0qKpiQ">
+        <extend xmi:type="uml:Extend" xmi:id="_ojWmsXuSEe2904nm0qKpiQ" extendedCase="_ojWmtXuSEe2904nm0qKpiQ" extensionLocation="_ojWmtnuSEe2904nm0qKpiQ"/>
+        <extend xmi:type="uml:Extend" xmi:id="_ojWmsnuSEe2904nm0qKpiQ" extendedCase="_ojWmt3uSEe2904nm0qKpiQ" extensionLocation="_ojWmuHuSEe2904nm0qKpiQ"/>
+        <extend xmi:type="uml:Extend" xmi:id="_ojWms3uSEe2904nm0qKpiQ" extendedCase="_ojWmuXuSEe2904nm0qKpiQ" extensionLocation="_ojWmunuSEe2904nm0qKpiQ"/>
+        <extend xmi:type="uml:Extend" xmi:id="_ojWmtHuSEe2904nm0qKpiQ" extendedCase="_ojWmu3uSEe2904nm0qKpiQ" extensionLocation="_ojWmvHuSEe2904nm0qKpiQ"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ojWmtXuSEe2904nm0qKpiQ" name="Modificar Actividad &#xD;&#xA;del Turno" subject="_ojWmqHuSEe2904nm0qKpiQ">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ojWmtnuSEe2904nm0qKpiQ" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ojWmt3uSEe2904nm0qKpiQ" name="Modificar &#xD;&#xA;Personal" subject="_ojWmqHuSEe2904nm0qKpiQ">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ojWmuHuSEe2904nm0qKpiQ" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ojWmuXuSEe2904nm0qKpiQ" name="Modificar Clientes &#xD;&#xA;Inscritos" subject="_ojWmqHuSEe2904nm0qKpiQ">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ojWmunuSEe2904nm0qKpiQ" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ojWmu3uSEe2904nm0qKpiQ" name="Modificar Datos Turno" subject="_ojWmqHuSEe2904nm0qKpiQ">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ojWmvHuSEe2904nm0qKpiQ" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ojWmvXuSEe2904nm0qKpiQ" name="Mostrar un Turno" subject="_ojWmqHuSEe2904nm0qKpiQ">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ojWmvnuSEe2904nm0qKpiQ" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ojWmv3uSEe2904nm0qKpiQ" name="Mostrar Todos" subject="_ojWmqHuSEe2904nm0qKpiQ">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ojWmwHuSEe2904nm0qKpiQ" name="ExtensionPoint1"/>
+      </ownedUseCase>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_ojWmwXuSEe2904nm0qKpiQ" name="Personal"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_ojWmwnuSEe2904nm0qKpiQ" name="BBDD"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ojWmw3uSEe2904nm0qKpiQ" memberEnd="_ojWmxHuSEe2904nm0qKpiQ _ojWmx3uSEe2904nm0qKpiQ" navigableOwnedEnd="_ojWmxHuSEe2904nm0qKpiQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWmxHuSEe2904nm0qKpiQ" name="mostrar Turnos" visibility="private" type="_ojWmqXuSEe2904nm0qKpiQ" association="_ojWmw3uSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWmxXuSEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWmxnuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWmx3uSEe2904nm0qKpiQ" name="" visibility="private" type="_ojWmwXuSEe2904nm0qKpiQ" association="_ojWmw3uSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWmyHuSEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWmyXuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ojWmynuSEe2904nm0qKpiQ" memberEnd="_ojWmy3uSEe2904nm0qKpiQ _ojWmznuSEe2904nm0qKpiQ" navigableOwnedEnd="_ojWmy3uSEe2904nm0qKpiQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWmy3uSEe2904nm0qKpiQ" name="dar de AltaTurnos" visibility="private" type="_ojWmrHuSEe2904nm0qKpiQ" association="_ojWmynuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWmzHuSEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWmzXuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWmznuSEe2904nm0qKpiQ" name="" visibility="private" type="_ojWmwXuSEe2904nm0qKpiQ" association="_ojWmynuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWmz3uSEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWm0HuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ojWm0XuSEe2904nm0qKpiQ" memberEnd="_ojWm0nuSEe2904nm0qKpiQ _ojWm1XuSEe2904nm0qKpiQ" navigableOwnedEnd="_ojWm0nuSEe2904nm0qKpiQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWm0nuSEe2904nm0qKpiQ" name="dar de Baja Turnos" visibility="private" type="_ojWmrXuSEe2904nm0qKpiQ" association="_ojWm0XuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWm03uSEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWm1HuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWm1XuSEe2904nm0qKpiQ" name="" visibility="private" type="_ojWmwXuSEe2904nm0qKpiQ" association="_ojWm0XuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWm1nuSEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWm13uSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ojWm2HuSEe2904nm0qKpiQ" memberEnd="_ojWm2XuSEe2904nm0qKpiQ _ojWm3HuSEe2904nm0qKpiQ" navigableOwnedEnd="_ojWm2XuSEe2904nm0qKpiQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWm2XuSEe2904nm0qKpiQ" name="modificar Turno" visibility="private" type="_ojWmsHuSEe2904nm0qKpiQ" association="_ojWm2HuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWm2nuSEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWm23uSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWm3HuSEe2904nm0qKpiQ" name="" visibility="private" type="_ojWmwXuSEe2904nm0qKpiQ" association="_ojWm2HuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWm3XuSEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWm3nuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ojWm33uSEe2904nm0qKpiQ" memberEnd="_ojWm4HuSEe2904nm0qKpiQ _ojWm43uSEe2904nm0qKpiQ" navigableOwnedEnd="_ojWm4HuSEe2904nm0qKpiQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWm4HuSEe2904nm0qKpiQ" name="escritura BBDD" visibility="private" type="_ojWmr3uSEe2904nm0qKpiQ" association="_ojWm33uSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWm4XuSEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWm4nuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWm43uSEe2904nm0qKpiQ" name="" visibility="private" type="_ojWmtXuSEe2904nm0qKpiQ" association="_ojWm33uSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWm5HuSEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWm5XuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ojWm5nuSEe2904nm0qKpiQ" memberEnd="_ojWm53uSEe2904nm0qKpiQ _ojWm6nuSEe2904nm0qKpiQ" navigableOwnedEnd="_ojWm53uSEe2904nm0qKpiQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWm53uSEe2904nm0qKpiQ" name="escritura BBDD" visibility="private" type="_ojWmr3uSEe2904nm0qKpiQ" association="_ojWm5nuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWm6HuSEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWm6XuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWm6nuSEe2904nm0qKpiQ" name="" visibility="private" type="_ojWmt3uSEe2904nm0qKpiQ" association="_ojWm5nuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWm63uSEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWm7HuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ojWm7XuSEe2904nm0qKpiQ" memberEnd="_ojWm7nuSEe2904nm0qKpiQ _ojWm8XuSEe2904nm0qKpiQ" navigableOwnedEnd="_ojWm7nuSEe2904nm0qKpiQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWm7nuSEe2904nm0qKpiQ" name="escritura BBDD" visibility="private" type="_ojWmr3uSEe2904nm0qKpiQ" association="_ojWm7XuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWm73uSEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWm8HuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWm8XuSEe2904nm0qKpiQ" name="" visibility="private" type="_ojWmuXuSEe2904nm0qKpiQ" association="_ojWm7XuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWm8nuSEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWm83uSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ojWm9HuSEe2904nm0qKpiQ" memberEnd="_ojWm9XuSEe2904nm0qKpiQ _ojWm-HuSEe2904nm0qKpiQ" navigableOwnedEnd="_ojWm9XuSEe2904nm0qKpiQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWm9XuSEe2904nm0qKpiQ" name="escritura BBDD" visibility="private" type="_ojWmr3uSEe2904nm0qKpiQ" association="_ojWm9HuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWm9nuSEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWm93uSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWm-HuSEe2904nm0qKpiQ" name="" visibility="private" type="_ojWmu3uSEe2904nm0qKpiQ" association="_ojWm9HuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWm-XuSEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWm-nuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ojWm-3uSEe2904nm0qKpiQ" memberEnd="_ojWm_HuSEe2904nm0qKpiQ _ojWm_3uSEe2904nm0qKpiQ" navigableOwnedEnd="_ojWm_HuSEe2904nm0qKpiQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWm_HuSEe2904nm0qKpiQ" name="lectura BBDD" visibility="private" type="_ojWmrnuSEe2904nm0qKpiQ" association="_ojWm-3uSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWm_XuSEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWm_nuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWm_3uSEe2904nm0qKpiQ" name="" visibility="private" type="_ojWmwnuSEe2904nm0qKpiQ" association="_ojWm-3uSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWnAHuSEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWnAXuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ojWnAnuSEe2904nm0qKpiQ" memberEnd="_ojWnA3uSEe2904nm0qKpiQ _ojWnBnuSEe2904nm0qKpiQ" navigableOwnedEnd="_ojWnA3uSEe2904nm0qKpiQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWnA3uSEe2904nm0qKpiQ" name="mostrar un Turno" visibility="private" type="_ojWmvXuSEe2904nm0qKpiQ" association="_ojWnAnuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWnBHuSEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWnBXuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWnBnuSEe2904nm0qKpiQ" name="" visibility="private" type="_ojWmrnuSEe2904nm0qKpiQ" association="_ojWnAnuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWnB3uSEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWnCHuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ojWnCXuSEe2904nm0qKpiQ" memberEnd="_ojWnCnuSEe2904nm0qKpiQ _ojWnDXuSEe2904nm0qKpiQ" navigableOwnedEnd="_ojWnCnuSEe2904nm0qKpiQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWnCnuSEe2904nm0qKpiQ" name="mostrar Todos" visibility="private" type="_ojWmv3uSEe2904nm0qKpiQ" association="_ojWnCXuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWnC3uSEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWnDHuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWnDXuSEe2904nm0qKpiQ" name="" visibility="private" type="_ojWmrnuSEe2904nm0qKpiQ" association="_ojWnCXuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWnDnuSEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWnD3uSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ojWnEHuSEe2904nm0qKpiQ" memberEnd="_ojWnEXuSEe2904nm0qKpiQ _ojWnFHuSEe2904nm0qKpiQ" navigableOwnedEnd="_ojWnEXuSEe2904nm0qKpiQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWnEXuSEe2904nm0qKpiQ" name="bBDD" visibility="private" type="_ojWmwnuSEe2904nm0qKpiQ" association="_ojWnEHuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWnEnuSEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWnE3uSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWnFHuSEe2904nm0qKpiQ" name="" visibility="private" type="_ojWmr3uSEe2904nm0qKpiQ" association="_ojWnEHuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWnFXuSEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWnFnuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ojWnF3uSEe2904nm0qKpiQ" memberEnd="_ojWnGHuSEe2904nm0qKpiQ _ojWnG3uSEe2904nm0qKpiQ" navigableOwnedEnd="_ojWnGHuSEe2904nm0qKpiQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWnGHuSEe2904nm0qKpiQ" name="escritura BBDD" visibility="private" type="_ojWmr3uSEe2904nm0qKpiQ" association="_ojWnF3uSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWnGXuSEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWnGnuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWnG3uSEe2904nm0qKpiQ" name="" visibility="private" type="_ojWmrXuSEe2904nm0qKpiQ" association="_ojWnF3uSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWnHHuSEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWnHXuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ojWnHnuSEe2904nm0qKpiQ" memberEnd="_ojWnH3uSEe2904nm0qKpiQ _ojWnInuSEe2904nm0qKpiQ" navigableOwnedEnd="_ojWnH3uSEe2904nm0qKpiQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWnH3uSEe2904nm0qKpiQ" name="escritura BBDD" visibility="private" type="_ojWmr3uSEe2904nm0qKpiQ" association="_ojWnHnuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWnIHuSEe2904nm0qKpiQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWnIXuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ojWnInuSEe2904nm0qKpiQ" name="" visibility="private" type="_ojWmrHuSEe2904nm0qKpiQ" association="_ojWnHnuSEe2904nm0qKpiQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ojWnI3uSEe2904nm0qKpiQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ojWnJHuSEe2904nm0qKpiQ"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ojWnJXuSEe2904nm0qKpiQ">
+      <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ojWnJnuSEe2904nm0qKpiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://schema.omg.org/spec/UML/2.2/StandardProfileL2.xmi#_yzU58YinEdqtvbnfB2L_5w"/>
+        </eAnnotations>
+      </xmi:Extension>
+      <appliedProfile xmi:type="uml:Profile" href="http://schema.omg.org/spec/UML/2.2/StandardProfileL2.xmi#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Standard:Subsystem xmi:id="_ojWnJ3uSEe2904nm0qKpiQ" base_Component="_ojWmqHuSEe2904nm0qKpiQ"/>
+</xmi:XMI>
